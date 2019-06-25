@@ -2,7 +2,7 @@ package com.java.base.designPatterns.respoChain.model_3;
 
 
 /**
- * 将领导需要做的事抽象成接口
+ * 将领导需要做的事抽象成类
  */
 public abstract class LeaderInfo {
 
@@ -23,7 +23,7 @@ public abstract class LeaderInfo {
     //设置当前领导的上一级领导
     public abstract void setSuperiorLeader(LeaderInfo superiorLeader);
 
-
+    //执行审批流程
     public void dealInfo(ApplyInfo applyInfo) {
         if (applyInfo.money <= auditMoney) {
             handler(applyInfo);

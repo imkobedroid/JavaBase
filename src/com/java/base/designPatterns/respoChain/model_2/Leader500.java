@@ -6,7 +6,6 @@ package com.java.base.designPatterns.respoChain.model_2;
  */
 public class Leader500 implements LeaderInfo {
 
-
     @Override
     public void handler(ApplyInfo person) {
         person.getApply();

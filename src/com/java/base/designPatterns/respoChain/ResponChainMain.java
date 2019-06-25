@@ -10,7 +10,7 @@ import com.java.base.designPatterns.respoChain.model_3.*;
  * 一个请求沿着一条“链”传递，直到该“链”上的某个处理者处理它为止
  * 多用于一个请求可以被多个处理者处理或处理者未明确指定时。
  */
-public class responChainMain {
+public class ResponChainMain {
 
 
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class responChainMain {
 //        Leader2000 leader2000 = new Leader2000();
 //
 //        //申请人
-//        Person person = new Person();
+//        Director person = new Director();
 //        person.setMoney(2000);
 //
 //
@@ -46,7 +46,7 @@ public class responChainMain {
 //        Leader2000 leader2000 = new Leader2000();
 //
 //        //申请人
-//        Person person = new Person();
+//        Director person = new Director();
 //        person.setMoney(2000);
 //
 //
@@ -90,7 +90,7 @@ public class responChainMain {
 
         //申请人
         Person person = new Person();
-        person.setMoney(1300);
+        person.setMoney(2000);
 
         leader500.dealInfo(person);
 

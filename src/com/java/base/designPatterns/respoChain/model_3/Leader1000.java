@@ -17,7 +17,6 @@ public class Leader1000 extends LeaderInfo {
         applyInfo.getApply();
         System.out.print("     我是Leader1000  你需要申请的" + applyInfo.getMoney() + "我批准了");
 
-
     }
 
     @Override

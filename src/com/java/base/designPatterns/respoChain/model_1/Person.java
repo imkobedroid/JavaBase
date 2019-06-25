@@ -2,7 +2,7 @@ package com.java.base.designPatterns.respoChain.model_1;
 
 
 /**
- * 某人出差
+ * 员工A要出差
  */
 public class Person {
 
