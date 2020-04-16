@@ -1,7 +1,6 @@
 package com.java.base;
 
 
-import java.util.concurrent.ThreadPoolExecutor;
 
 public class ThreadPoolTest {
 
