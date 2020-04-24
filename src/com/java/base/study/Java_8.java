@@ -10,7 +10,6 @@ public class Java_8 {
 //    即：如果需要返回T，它是生产者（Producer），要使用extends通配符；如果需要写入T，它是消费者（Consumer），要使用super通配符。
 
 
-
     public static void main(String[] args) {
 
 //        使用<? super Integer>通配符表示：
@@ -85,10 +84,10 @@ class PairInfoType<T> {
 //    copy()方法内部不会读取dest，因为不能调用dest.get()来获取T的引用；
 
 //    copy()方法内部也不会修改src，因为不能调用src.add(T)。
- class Collections {
+class Collections {
     // 把src的每个元素复制到dest中:
     public static <T> void copy(List<? super T> dest, List<? extends T> src) {
-        for (int i=0; i<src.size(); i++) {
+        for (int i = 0; i < src.size(); i++) {
             T t = src.get(i);
             dest.add(t);
         }
