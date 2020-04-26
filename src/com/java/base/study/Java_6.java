@@ -25,15 +25,15 @@ public class Java_6 {
 
 //        Pair<PersonInfo> pair = new Pair<>(PersonInfo.class);
 //        pair.getFirst().setName("kobe");
-//        pair.getFirst().setAge("40");
+//        pair.getFirst().setNumber("40");
 //
 //        pair.getLast().setName("zhangsan");
-//        pair.getLast().setAge("50");
+//        pair.getLast().setNumber("50");
 //
 //        System.out.println(pair.getFirst().getName());
-//        System.out.println(pair.getFirst().getAge());
+//        System.out.println(pair.getFirst().getNumber());
 //        System.out.println(pair.getLast().getName());
-//        System.out.println(pair.getLast().getAge());
+//        System.out.println(pair.getLast().getNumber());
 
 
 //        例如：IntPair可以获取到父类的泛型类型Integer。获取父类的泛型类型代码比较复杂：
@@ -64,11 +64,11 @@ public class Java_6 {
 //        this.name = name;
 //    }
 //
-//    public T getAge() {
+//    public T getNumber() {
 //        return age;
 //    }
 //
-//    public void setAge(T age) {
+//    public void setNumber(T age) {
 //        this.age = age;
 //    }
 //}

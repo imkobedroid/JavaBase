@@ -9,7 +9,7 @@ public class BuilderMain {
     public static void main(String[] args) {
 //
 //        ContentBuilder contentBuilder = new ContentBuilder();
-//        contentBuilder.setAge("40");
+//        contentBuilder.setNumber("40");
 //        contentBuilder.setName("kobe");
 //        contentBuilder.setLike("打篮球");
 //
