@@ -9,7 +9,10 @@ package com.java.base.study;
         对null的比较：即x.equals(null)永远返回false。*/
 
 
+import java.time.DayOfWeek;
+import java.util.EnumMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 public class Java_9 {
@@ -23,6 +26,20 @@ public class Java_9 {
         );
 
         System.out.println(new PersonInfo("kobe", 40).equals(personInfos.get(0)));
+
+
+
+
+        Map<DayOfWeek, String> map = new EnumMap<>(DayOfWeek.class);
+        map.put(DayOfWeek.MONDAY, "星期一");
+        map.put(DayOfWeek.TUESDAY, "星期二");
+        map.put(DayOfWeek.WEDNESDAY, "星期三");
+        map.put(DayOfWeek.THURSDAY, "星期四");
+        map.put(DayOfWeek.FRIDAY, "星期五");
+        map.put(DayOfWeek.SATURDAY, "星期六");
+        map.put(DayOfWeek.SUNDAY, "星期日");
+        System.out.println(map);
+        System.out.println(map.get(DayOfWeek.MONDAY));
     }
 }
 
