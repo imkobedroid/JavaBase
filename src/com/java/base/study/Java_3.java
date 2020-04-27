@@ -67,7 +67,7 @@ class Person2 {
 
 class Person3 {
     public String getName() {
-        return "Person";
+        return "PersonRsa";
     }
 }
 
