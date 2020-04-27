@@ -12,8 +12,6 @@ package com.java.base.study;
 //        Terminated：线程已终止，因为run()方法执行完毕。
 
 
-
-
 public class Java_17 {
 
     public static void main(String[] args) throws InterruptedException {
@@ -89,7 +87,6 @@ public class Java_17 {
 //
 
 
-
 //        main线程通过调用t.interrupt()从而通知t线程中断，而此时t线程正位于hello.join()的等待中，此方法会立刻结束等待并抛出InterruptedException。由于我们在t线程中捕获了InterruptedException，因此，就可以准备结束该线程。在t线程结束前，对hello线程也进行了interrupt()调用通知其中断。如果去掉这一行代码，可以发现hello线程仍然会继续运行，且JVM不会退出。
 
 //        Thread t = new MyThread();
@@ -98,7 +95,6 @@ public class Java_17 {
 //        t.interrupt(); // 中断t线程
 //        t.join(); // 等待t线程结束
 //        System.out.println("end");
-
 
 
 //        另一个常用的中断线程的方法是设置标志位。我们通常会用一个running标志位来标识线程是否应该继续运行，在外部线程中，通过把HelloThread.running置为false，就可以让线程结束：
@@ -112,15 +108,13 @@ public class Java_17 {
 }
 
 
-
-
-
 class HelloThread extends Thread {
     public volatile boolean running = true;
+
     public void run() {
         int n = 0;
         while (running) {
-            n ++;
+            n++;
             System.out.println(n + " hello!");
         }
         System.out.println("end!");
@@ -155,8 +149,6 @@ class HelloThread extends Thread {
 //        }
 //    }
 //}
-
-
 
 
 //class MyThread extends Thread {
