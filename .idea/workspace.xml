@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_21.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_22.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_23.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_24.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_25.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_26.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_27.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_28.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_29.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/base/study/Java_28.java" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_28.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +25,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_26.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-646">
-              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
               <folding>
-                <element signature="e#2643#2644#0" expanded="true" />
-                <element signature="e#2675#2676#0" expanded="true" />
+                <element signature="e#2743#2744#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,13 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Java_28.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Java_28.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_28.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="520">
+              <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding>
-                <marker date="1588148273281" expanded="true" signature="858:1163" ph="..." />
+                <element signature="imports" expanded="true" />
+                <marker date="1588148409488" expanded="true" signature="894:1199" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Java_29.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_29.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1588148727350" expanded="true" signature="255:459" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,7 +73,7 @@
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="1913" column="59" lean-forward="false" selection-start-line="1913" selection-start-column="59" selection-end-line="1913" selection-end-column="59" />
+              <caret line="1913" column="63" lean-forward="false" selection-start-line="1913" selection-start-column="55" selection-end-line="1913" selection-end-column="63" />
               <folding>
                 <element signature="e#79709#79710#0" expanded="true" />
                 <element signature="e#79760#79761#0" expanded="true" />
@@ -115,19 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronousQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/SynchronousQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="849" column="11" lean-forward="false" selection-start-line="849" selection-start-column="11" selection-end-line="849" selection-end-column="11" />
-              <folding>
-                <element signature="e#34724#34725#0" expanded="true" />
-                <element signature="e#34751#34752#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/java/base/designPatterns/builders/Person.java" />
         <option value="$PROJECT_DIR$/src/com/java/base/designPatterns/builders/Builder.java" />
         <option value="$PROJECT_DIR$/src/com/java/base/designPatterns/builders/ContentBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/java/base/designPatterns/builders/model_1/Person.java" />
@@ -223,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/com/java/base/study/Java_26.java" />
         <option value="$PROJECT_DIR$/src/com/java/base/study/Java_27.java" />
         <option value="$PROJECT_DIR$/src/com/java/base/study/Java_28.java" />
+        <option value="$PROJECT_DIR$/src/com/java/base/study/Java_29.java" />
       </list>
     </option>
   </component>
@@ -575,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587986967266</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="完成了线程池的编写">
+      <created>1588148290443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588148290443</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -624,7 +625,8 @@
     <MESSAGE value="队列学习" />
     <MESSAGE value="线程学习" />
     <MESSAGE value="死锁解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="死锁解决" />
+    <MESSAGE value="完成了线程池的编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了线程池的编写" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -637,24 +639,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="false" />
-            <element signature="e#1773#1774#0" expanded="false" />
-            <element signature="e#1810#1811#0" expanded="false" />
-            <element signature="e#1844#1845#0" expanded="false" />
-            <element signature="e#1870#1871#0" expanded="false" />
-            <element signature="e#1897#1898#0" expanded="false" />
-            <element signature="e#1932#1933#0" expanded="false" />
-            <element signature="e#1964#1965#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2793">
@@ -1010,10 +994,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_26.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-646">
-          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
           <folding>
-            <element signature="e#2643#2644#0" expanded="true" />
-            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1069,7 +1053,7 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="1913" column="59" lean-forward="false" selection-start-line="1913" selection-start-column="59" selection-end-line="1913" selection-end-column="59" />
+          <caret line="1913" column="63" lean-forward="false" selection-start-line="1913" selection-start-column="55" selection-end-line="1913" selection-end-column="63" />
           <folding>
             <element signature="e#79709#79710#0" expanded="true" />
             <element signature="e#79760#79761#0" expanded="true" />
@@ -1079,10 +1063,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_28.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="520">
+          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding>
-            <marker date="1588148273281" expanded="true" signature="858:1163" ph="..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1588148409488" expanded="true" signature="894:1199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/base/study/Java_29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1588148727350" expanded="true" signature="255:459" ph="..." />
           </folding>
         </state>
       </provider>
