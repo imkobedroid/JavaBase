@@ -42,9 +42,6 @@ public class Java_28 {
         Thread.sleep(200);
 
 
-
-
-
 //        如果只是实现了异步回调机制，我们还看不出CompletableFuture相比Future的优势。CompletableFuture更强大的功能是，多个CompletableFuture可以串行执行，例如，定义两个CompletableFuture，第一个CompletableFuture根据证券名称查询证券代码，第二个CompletableFuture根据证券代码查询证券价格，这两个CompletableFuture实现串行操作如下：
 
 
@@ -127,7 +124,7 @@ public class Java_28 {
         System.out.println("query price from " + url + "...");
         try {
             Thread.sleep((long) (Math.random() * 100));
-        } catch (InterruptedException e) {
+        } catch (InterruptedException ignored) {
         }
         return 5 + Math.random() * 20;
     }
