@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="学习tcp">
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ObjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/lock/lockThis/ThreadG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/base/designPatterns/observer/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/observer/Observable.java" afterDir="false" />
-    </list>
+    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="锁的学习" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,6 +155,7 @@
       <workItem from="1628577773476" duration="107000" />
       <workItem from="1640332527532" duration="1458000" />
       <workItem from="1640334366358" duration="1333000" />
+      <workItem from="1640336241333" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="简单的建造者模式构成">
       <created>1561454516542</created>
@@ -280,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588764639970</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="锁的学习">
+      <created>1640336531892</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336531892</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,31 +294,40 @@
     <MESSAGE value="死锁解决" />
     <MESSAGE value="完成了线程池的编写" />
     <MESSAGE value="学习tcp" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习tcp" />
+    <MESSAGE value="锁的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="锁的学习" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1640335964772">
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1640336531298">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1640335964772" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1640335964769">
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1640336531298" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1640336451112">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1640335964769" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1640335964768">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1640336451112" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1640336451110">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1640335964768" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1640335964771">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1640336451110" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1640336451109">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1640335964771" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1640336451109" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1640336451111">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1640336451111" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1640335750305">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1640335750305" />
+    <state x="240" y="133" key="Vcs.Push.Dialog.v2" timestamp="1640336692110">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="133" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1640336692110" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

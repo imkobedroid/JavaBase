@@ -86,6 +86,11 @@ public class MainTest {
 /*
 结论是：
 
+
+同步实例方法 - 对于普通同步方法，锁是当前实例对象
+同步静态方法 - 对于静态同步方法，锁是当前类的所有对象
+同步代码块 - 对于同步方法块，锁是 synchronized 括号里配置的对象
+
 synchronized(this)  是对当前对象的这个方法枷锁，如果对象不同则异步
 synchronized(Object.class)  是对Object这个类的所有对象进行方法枷锁，所有对象执行到这个方法都要等待锁
 synchronized static 是对Object这个类的所有对象进行方法枷锁，所有对象执行到这个方法都要等待锁
