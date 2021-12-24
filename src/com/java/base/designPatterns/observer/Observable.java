@@ -13,7 +13,7 @@ public abstract class Observable {
 
 
     /**
-     * 增加一个观察者
+     * 增加一个gua观察者
      */
     public void addObserver(Observer observer) {
         vector.add(observer);
