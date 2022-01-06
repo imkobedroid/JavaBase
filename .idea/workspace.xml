@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="增加了二分搜索树">
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/tree/Main.java" afterDir="false" />
+    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="删除二分搜索树最大值与最小值的功能完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ObjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ObjectService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/base/tree/BTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/base/tree/BTS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +165,8 @@
       <workItem from="1641374550431" duration="1026000" />
       <workItem from="1641378573484" duration="1244000" />
       <workItem from="1641435520302" duration="1761000" />
-      <workItem from="1641437350272" duration="555000" />
+      <workItem from="1641437350272" duration="1524000" />
+      <workItem from="1641439317434" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="简单的建造者模式构成">
       <created>1561454516542</created>
@@ -302,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640860010542</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="删除二分搜索树最大值与最小值的功能完成">
+      <created>1641438250643</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641438250643</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +329,8 @@
     <MESSAGE value="锁的学习" />
     <MESSAGE value="锁的学习 fix" />
     <MESSAGE value="增加了二分搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了二分搜索树" />
+    <MESSAGE value="删除二分搜索树最大值与最小值的功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除二分搜索树最大值与最小值的功能完成" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -332,38 +339,46 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1640832528629" />
-    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1640860010163">
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1641438250189">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1640860010163" />
-    <state width="1238" height="474" key="GridCell.Tab.0.bottom" timestamp="1641376022000">
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1641438250189" />
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1641438167538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="474" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1641376022000" />
-    <state width="1238" height="474" key="GridCell.Tab.0.center" timestamp="1641376021997">
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1641438167538" />
+    <state width="1238" height="474" key="GridCell.Tab.0.bottom/0.25.1280.731@0.25.1280.731" timestamp="1641438027113" />
+    <state width="1238" height="229" key="GridCell.Tab.0.center" timestamp="1641438167536">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="474" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1641376021997" />
-    <state width="1238" height="474" key="GridCell.Tab.0.left" timestamp="1641376021995">
+    <state width="1238" height="229" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1641438167536" />
+    <state width="1238" height="474" key="GridCell.Tab.0.center/0.25.1280.731@0.25.1280.731" timestamp="1641438027110" />
+    <state width="1238" height="229" key="GridCell.Tab.0.left" timestamp="1641438167532">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="474" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1641376021995" />
-    <state width="1238" height="474" key="GridCell.Tab.0.right" timestamp="1641376021998">
+    <state width="1238" height="229" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1641438167532" />
+    <state width="1238" height="474" key="GridCell.Tab.0.left/0.25.1280.731@0.25.1280.731" timestamp="1641438027108" />
+    <state width="1238" height="229" key="GridCell.Tab.0.right" timestamp="1641438167537">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="474" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1641376021998" />
+    <state width="1238" height="229" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1641438167537" />
+    <state width="1238" height="474" key="GridCell.Tab.0.right/0.25.1280.731@0.25.1280.731" timestamp="1641438027111" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1641375749013">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1641375749013" />
-    <state x="240" y="133" key="Vcs.Push.Dialog.v2" timestamp="1640860016966">
+    <state x="240" y="133" key="Vcs.Push.Dialog.v2" timestamp="1641439399217">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="133" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1640860016966" />
+    <state x="240" y="133" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1641439399217" />
     <state x="342" y="110" width="595" height="580" key="find.popup" timestamp="1640832248678">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="342" y="110" width="595" height="580" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1640832248678" />
+    <state x="336" y="177" key="git4idea.merge.GitPullDialog" timestamp="1641438474738">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="336" y="177" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1641438474738" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
