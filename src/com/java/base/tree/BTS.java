@@ -11,6 +11,7 @@ public class BTS<E extends Comparable<E>> {
 
     private Node root;
     private int size;
+
     public BTS() {
         this.root = null;
         size = 0;
@@ -111,4 +112,127 @@ public class BTS<E extends Comparable<E>> {
             right = null;
         }
     }
+
+
+    //二分搜索树的前序遍历
+    public void preOrder() {
+        preOrder(root);
+    }
+
+    private void preOrder(Node node) {
+        if (node == null) return;
+        System.out.println(node.e);
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+
+    //二分搜索树的中序遍历
+    public void inOrder() {
+        inOrder(root);
+    }
+
+    private void inOrder(Node node) {
+        if (node == null) return;
+        inOrder(node.left);
+        System.out.println(node.e);
+        inOrder(node.right);
+    }
+
+
+    //二分搜索树的后序遍历
+    public void postOrder() {
+        postOrder(root);
+    }
+
+    private void postOrder(Node node) {
+        if (node == null) return;
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.println(node.e);
+    }
+
+
+    //寻找二分搜索树的最小元素
+    public E minimum() {
+        if (size == 0) {
+            throw new IllegalArgumentException("bts is empty");
+        }
+        return minimum(root).e;
+    }
+
+
+    //寻找二分搜索树的最小元素所在的节点
+    private Node minimum(Node node) {
+        if (node.left == null) {
+            return node;
+        }
+        return minimum(node.left);
+    }
+
+
+    //寻找二分搜索树的最大元素
+    public E maximum() {
+        if (size == 0) {
+            throw new IllegalArgumentException("bts is empty");
+        }
+        return maximum(root).e;
+    }
+
+
+    //寻找二分搜索树的最大元素所在的节点
+    private Node maximum(Node node) {
+        if (node.right == null) {
+            return node;
+        }
+        return minimum(node.right);
+    }
+
+
+    //删除二分搜索树最小的元素所在的节点，并返回最小值
+    public E removeMin() {
+        E ret = minimum();
+        root = removeMin(root);
+        return ret;
+    }
+
+
+    //删除掉以node为根节点的二分搜索树的最小节点
+    //返回删除后新的二分搜索树的根
+    private Node removeMin(Node node) {
+        if (node.left == null) {
+            Node rightNode = node.right;
+            node.right = null;
+            size--;
+            return rightNode;
+        }
+
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+
+    //删除二分搜索树最大的元素所在的节点，并返回最小值
+    public E removeMax() {
+        E ret = maximum();
+        root = removeMax(root);
+        return ret;
+    }
+
+
+    //删除掉以node为根节点的二分搜索树的最大节点
+    //返回删除后新的二分搜索树的根
+    private Node removeMax(Node node) {
+        if (node.right == null) {
+            Node leftNode = node.left;
+            node.left = null;
+            size--;
+            return leftNode;
+        }
+
+        node.right = removeMax(node.right);
+        return node;
+    }
+
+
 }

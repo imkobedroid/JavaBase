@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="锁的学习 fix">
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/tree/BTS.java" afterDir="false" />
+    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="增加了二分搜索树">
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/tree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ObjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ObjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/base/tree/BTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/base/tree/BTS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +59,9 @@
       <recent name="$PROJECT_DIR$/src/com/java/base/designPatterns/respoChain/model_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Java_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.base.study.Java_26" />
-      <module name="java基础" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.base.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.base.study.Java_27" />
       <module name="java基础" />
       <extension name="coverage">
         <pattern>
@@ -110,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.base.tree.Main" />
+      <module name="java基础" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.base.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.base.lock.lockThis.MainTest" />
       <module name="java基础" />
@@ -125,18 +127,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java_26" />
-      <item itemvalue="Application.Java_27" />
       <item itemvalue="Application.Java_28" />
       <item itemvalue="Application.Java_31" />
       <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Java_26" />
         <item itemvalue="Application.Java_31" />
         <item itemvalue="Application.Java_28" />
-        <item itemvalue="Application.Java_27" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +163,11 @@
       <workItem from="1640336241333" duration="1111000" />
       <workItem from="1640832197040" duration="1188000" />
       <workItem from="1640834008953" duration="925000" />
-      <workItem from="1640859122772" duration="433000" />
+      <workItem from="1640859122772" duration="1060000" />
+      <workItem from="1641374550431" duration="1026000" />
+      <workItem from="1641378573484" duration="1244000" />
+      <workItem from="1641435520302" duration="1761000" />
+      <workItem from="1641437350272" duration="555000" />
     </task>
     <task id="LOCAL-00001" summary="简单的建造者模式构成">
       <created>1561454516542</created>
@@ -289,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640336859580</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="增加了二分搜索树">
+      <created>1640860010542</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1640860010542</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +322,8 @@
     <MESSAGE value="学习tcp" />
     <MESSAGE value="锁的学习" />
     <MESSAGE value="锁的学习 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="锁的学习 fix" />
+    <MESSAGE value="增加了二分搜索树" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了二分搜索树" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -318,34 +332,34 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1640832528629" />
-    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1640336859336">
+    <state x="224" y="0" key="CommitChangelistDialog2" timestamp="1640860010163">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1640336859336" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1640336866675">
+    <state x="224" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1640860010163" />
+    <state width="1238" height="474" key="GridCell.Tab.0.bottom" timestamp="1641376022000">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1640336866675" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1640336866674">
+    <state width="1238" height="474" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1641376022000" />
+    <state width="1238" height="474" key="GridCell.Tab.0.center" timestamp="1641376021997">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1640336866674" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1640336866673">
+    <state width="1238" height="474" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1641376021997" />
+    <state width="1238" height="474" key="GridCell.Tab.0.left" timestamp="1641376021995">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1640336866673" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1640336866674">
+    <state width="1238" height="474" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1641376021995" />
+    <state width="1238" height="474" key="GridCell.Tab.0.right" timestamp="1641376021998">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1640336866674" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1640335750305">
+    <state width="1238" height="474" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1641376021998" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1641375749013">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1640335750305" />
-    <state x="240" y="133" key="Vcs.Push.Dialog.v2" timestamp="1640336862714">
+    <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1641375749013" />
+    <state x="240" y="133" key="Vcs.Push.Dialog.v2" timestamp="1640860016966">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="133" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1640336862714" />
+    <state x="240" y="133" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1640860016966" />
     <state x="342" y="110" width="595" height="580" key="find.popup" timestamp="1640832248678">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
