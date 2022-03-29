@@ -89,16 +89,16 @@ class HandlerThread extends Thread {
                 writer.flush();
                 break;
             case 2:
-                byte[] b = Java_31.class.getResourceAsStream("/favicon.png").readAllBytes(); //把图片放在bin下
-                writer.write("HTTP/1.0 200 OK\r\n");
-                writer.write("Connection: close\r\n");
-                writer.write("Content-Type: image/x-icon\r\n");
-                writer.write("Content-Length: " + b.length + "\r\n");
-                writer.write("\r\n"); // 空行标识Header和Body的分隔
-                writer.flush();
-                output.write(b);
-                output.flush();
-                break;
+//                byte[] b = Java_31.class.getResourceAsStream("/favicon.png").readAllBytes(); //把图片放在bin下
+//                writer.write("HTTP/1.0 200 OK\r\n");
+//                writer.write("Connection: close\r\n");
+//                writer.write("Content-Type: image/x-icon\r\n");
+//                writer.write("Content-Length: " + b.length + "\r\n");
+//                writer.write("\r\n"); // 空行标识Header和Body的分隔
+//                writer.flush();
+//                output.write(b);
+//                output.flush();
+//                break;
         }
     }
 }

@@ -11,7 +11,6 @@ package com.java.base.study;
 
 import java.time.DayOfWeek;
 import java.util.EnumMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
@@ -20,12 +19,12 @@ public class Java_9 {
 
     public static void main(String[] args) {
 
-        List<PersonInfo> personInfos = List.of(
-                new PersonInfo("kobe", 40),
-                new PersonInfo("zhangsan", 30)
-        );
+//        List<PersonInfo> personInfos = List.of(
+//                new PersonInfo("kobe", 40),
+//                new PersonInfo("zhangsan", 30)
+//        );
 
-        System.out.println(new PersonInfo("kobe", 40).equals(personInfos.get(0)));
+//        System.out.println(new PersonInfo("kobe", 40).equals(personInfos.get(0)));
 
 
 
