@@ -1,148 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="删除二分搜索树最大值与最小值的功能完成">
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/AdapterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/AdvancedMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/adapter/VlcPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4935b6a5-7dba-4055-a650-9f2e66250648" name="Default" comment="增加了适配器模式">
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/strategy/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/strategy/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/strategy/OperationSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/base/designPatterns/strategy/StrategyPatternDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java基础.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/META-INF/java基础.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/ThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/ThreadPoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/BuilderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/BuilderMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/ContentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/ContentBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/PersonInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_1/PersonInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_2/Director$ContentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_2/Director$ContentBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_2/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/builders/model_2/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Observable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Observable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/ReadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/ReadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/ReadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/ReadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Test1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Test1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/observer/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader1000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader1000.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader1500.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader1500.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader2000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader2000.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader500.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Leader500.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_1/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/ApplyInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/ApplyInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader1000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader1000.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader1500.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader1500.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader2000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader2000.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader500.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Leader500.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/LeaderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/LeaderInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_2/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/ApplyInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/ApplyInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader1000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader1000.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader1500.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader1500.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader2000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader2000.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader500.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Leader500.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/LeaderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/LeaderInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/model_3/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/responChainMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/designPatterns/respoChain/responChainMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/grammar/MyFirstJavaProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/grammar/MyFirstJavaProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ObjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ObjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/lock/lockThis/ThreadH.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/AddThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/AddThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Collections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Collections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterInfoSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterInfoSynchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterReadWriteLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterReadWriteLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterReentrantLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/CounterReentrantLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/DecThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/DecThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/HandlerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/HandlerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/HelloThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/HelloThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/IntPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/IntPair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_17$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_18$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_18$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_20$Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_20$Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Java_9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Key.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PairInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PairInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PairInfoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PairInfoType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Person2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Person3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Person3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PersonInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PersonInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PersonRsa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/PersonRsa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Range.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Student3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Student3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TaskInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TaskInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TaskQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TaskQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TaskQueueInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TaskQueueInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TimerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/TimerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/UserComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/UserComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Weekday.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Weekday.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Weekday1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java基础/com/java/base/study/Weekday1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/base/study/Java_31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/base/study/Java_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/base/study/Java_9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -202,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/com/java/base/designPatterns/respoChain/model_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdapterPatternDemo">
+  <component name="RunManager" selected="Application.ResponChainMain">
     <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.base.designPatterns.adapter.AdapterPatternDemo" />
       <module name="java基础" />
@@ -218,19 +86,6 @@
     </configuration>
     <configuration name="Java_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.base.study.Java_26" />
-      <module name="java基础" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.base.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java_31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.base.study.Java_31" />
       <module name="java基础" />
       <extension name="coverage">
         <pattern>
@@ -268,20 +123,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResponChainMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.base.designPatterns.respoChain.ResponChainMain" />
+      <module name="java基础" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.base.designPatterns.respoChain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Java_26" />
-      <item itemvalue="Application.Java_31" />
       <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AdapterPatternDemo" />
+      <item itemvalue="Application.ResponChainMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResponChainMain" />
         <item itemvalue="Application.AdapterPatternDemo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Java_26" />
-        <item itemvalue="Application.Java_31" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +183,7 @@
       <workItem from="1641439317434" duration="1044000" />
       <workItem from="1648517995117" duration="72000" />
       <workItem from="1648518077184" duration="177000" />
-      <workItem from="1648522883953" duration="626000" />
+      <workItem from="1648522883953" duration="7985000" />
     </task>
     <task id="LOCAL-00001" summary="简单的建造者模式构成">
       <created>1561454516542</created>
@@ -457,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641438250643</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="增加了适配器模式">
+      <created>1648523636224</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648523636224</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +365,8 @@
     <MESSAGE value="锁的学习 fix" />
     <MESSAGE value="增加了二分搜索树" />
     <MESSAGE value="删除二分搜索树最大值与最小值的功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除二分搜索树最大值与最小值的功能完成" />
+    <MESSAGE value="增加了适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了适配器模式" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
